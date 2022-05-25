@@ -1,2 +1,2 @@
 # demoMenu
-concept to simplify demo menus adds compiler flags.
+concept to simplify demo menus.
