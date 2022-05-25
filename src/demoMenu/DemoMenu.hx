@@ -31,7 +31,7 @@ class DemoMenu{
   public function setupFolder( args ): DemoStructure {
     // could extract a folder name and json name but not bothering to process args, using hard coded.
     var folder = new Folder( folderPath );
-    var data: DemoStructure = haxe.Json.parse( loadText( demoJson ) );
+    var data: DemoStructure = haxe.Json.parse( folder.loadText( demoJson ) );
     return data.options;
   }
   
