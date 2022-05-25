@@ -1,7 +1,7 @@
 package demoMenu;
 import folder.Folder;
 
-typeDef DemoStructure = {
+typedef DemoStructure = {
   var options: Array<DemoOption>;
 }
 
