@@ -46,7 +46,7 @@ class DemoMenu{
     }
     var optionNumber:String = Sys.stdin().readLine();
     var optionIndex = Std.parseInt( optionNumber );
-    if( optionIndex.isNaN() {
+    if( optionIndex.isNaN() ){
        Sys.println('try again');
        Sys.println('');
        return displayMenu( menu );
