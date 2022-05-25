@@ -14,7 +14,7 @@ typedef DemoOption = {
 class DemoMenu{
   
   public var demoJson: String = 'demoMenu.json';
-  public var folderPath: String = '';
+  public var folderPath: String = '/';
   public var folder: Folder;
   public var instruction: String = "Please select a demo by index number: ";
   
